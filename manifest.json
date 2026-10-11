@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "local.hostname",
+  "name": "Hostname",
+  "version": "1.0.0",
+  "description": "Shows this machine's name in the bar",
+  "kinds": ["bar-widget"],
+  "entryPoints": { "barWidget": "Hostname.qml" },
+  "barWidget": { "displayName": "Hostname", "category": "System" }
+}
