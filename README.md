@@ -1,4 +1,4 @@
-# hostname-bar-widget
+# local.hostname
 
 An [Omarchy](https://omarchy.org/) shell bar widget that shows the machine's
 hostname in the bar, so you can tell which machine you're looking at
@@ -13,7 +13,7 @@ new theme colours by default.
 ## Install
 
 ```bash
-git clone https://github.com/jasikor/hostname-bar-widget.git \
+git clone https://github.com/jasikor/local.hostname.git \
   ~/.config/omarchy/plugins/local.hostname
 
 omarchy plugin enable local.hostname
@@ -24,7 +24,7 @@ omarchy restart shell
 Or let Omarchy clone and enable it from the URL:
 
 ```bash
-omarchy plugin add https://github.com/jasikor/hostname-bar-widget
+omarchy plugin add https://github.com/jasikor/local.hostname
 ```
 
 ## Configuration
