@@ -3,6 +3,7 @@
   "id": "local.hostname",
   "name": "Hostname",
   "version": "1.0.0",
+  "author": "jasikor",
   "description": "Shows this machine's name in the bar",
   "kinds": ["bar-widget"],
   "entryPoints": { "barWidget": "Hostname.qml" },
